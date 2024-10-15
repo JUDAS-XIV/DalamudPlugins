@@ -14,7 +14,7 @@ concurrency: regenerate
 jobs:
   generate:
     name: Regenerate PluginMaster
-    if: github.repository == 'dohwacorp/DalamudPlugins'
+    if: github.repository == 'JUDAS-XIV/DalamudPlugins'
     runs-on: windows-2019
     steps:
       - name: Extract branch name
